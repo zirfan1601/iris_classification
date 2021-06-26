@@ -1,7 +1,6 @@
 # Data Classification : Iris Dataset
 
 ## Installing Required Libraries
-#
 
 * scipy
 * numpy
@@ -10,7 +9,6 @@
 * sklearn
 
 ## Importing the libraries
-#
 
 Importing and checking the version of the libraries on my jupyter notebook.
 
@@ -50,7 +48,6 @@ sklearn: 0.24.2
 ```
 
 ## Loading the Data
-#
 
 The dataset provided was [Iris Dataset.](https://archive.ics.uci.edu/ml/datasets/Iris "Iris Dataset")
 
@@ -114,7 +111,6 @@ print(dataset.groupby('class').size())
 ```
 
 ## Visualising
-#
 
 Now, I had a basic idea about how the dataset is and I went on to Visualise through plotting the data.
 
@@ -145,7 +141,6 @@ pyplot.show()
 //Add image
 
 ## Creating a Validation Dataset
-#
 
 I sliced the data set to work on the training data.
 
@@ -162,7 +157,6 @@ X_train, X_validation, Y_train, Y_validation = train_test_split(X, y, test_size=
 I used [this documentation](https://machinelearningmastery.com/index-slice-reshape-numpy-arrays-machine-learning-python/ "Slicing numpy arrays") to understand slicing of numpy-arrays in Python.
 
 ## Building a Model
-#
 
 I don’t know which algorithms would be good on this problem or what configurations to use.
 
@@ -195,10 +189,8 @@ I also created a box and whisker plot to visualise the accuracy.
 *I will finish this soon*
 
 ## My Experience
-#
 
 ### Hurdles
-#
 
 * No good experience in Python
 * Never used Jupyter Notebook
@@ -208,7 +200,6 @@ I also created a box and whisker plot to visualise the accuracy.
 * New to documenting on .md format
 
 ### Headstarts
-#
 
 * I knew basics of Machine Learning
 * Huge confidence that i can do this.
